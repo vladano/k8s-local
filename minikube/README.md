@@ -107,3 +107,42 @@ minikube logs
 ✅ Result: 
 After these steps, you should have a fully working local Kubernetes cluster on Windows or Linux ready for development and testing.
 
+## Summary Table for minikube commands:
+
+| Command            | Purpose                                              |
+|--------------------|------------------------------------------------------|
+| `start`            | Start a local Kubernetes cluster                     |
+| `stop`             | Stop the cluster (preserves state)                   |
+| `delete`           | Delete the cluster permanently                       |
+| `restart`          | Restart the cluster                                  |
+| `status`           | Show cluster status                                  |
+| `ip`               | Get cluster/node IP address                          |
+| `version`          | Print Minikube version                               |
+| `logs`             | Get cluster debug logs                               |
+| `addons`           | Enable/disable/list add-ons                          |
+| `dashboard`        | Open the Kubernetes Dashboard                        |
+| `config`           | Manage persistent configuration                      |
+| `profile`          | Manage multiple cluster profiles                     |
+| `update-context`   | Fix kubeconfig after IP/port change                  |
+| `update-check`     | Check for Minikube updates                           |
+| `node`             | Add/remove/list cluster nodes                        |
+| `service`          | Access Kubernetes services                           |
+| `tunnel`           | Expose LoadBalancer services locally                 |
+| `ssh`              | SSH into the Minikube node                           |
+| `ssh-key`          | Get SSH key path for the node                        |
+| `ssh-host`         | Get SSH host key for the node                        |
+| `docker-env`       | Configure Docker CLI for Minikube                    |
+| `podman-env`       | Configure Podman CLI for Minikube                    |
+| `image`            | Build/load/list/remove images                        |
+| `cache`            | Manage local image cache                             |
+| `cp`               | Copy files into the node                             |
+| `mount`            | Mount a local directory into the node                |
+| `pause`            | Pause all workloads                                  |
+| `unpause`          | Resume paused workloads                              |
+| `kubectl`          | Run cluster-matched kubectl                          |
+| `completion`       | Generate shell completion script                     |
+| `help`             | Show help                                            |
+| `options`          | Show global flags                                    |
+| `license`          | Output dependency licenses                           |
+---
+*Source: [Official Minikube Command Reference](https://minikube.sigs.k8s.io/docs/commands/)*

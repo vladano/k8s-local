@@ -1,4 +1,4 @@
-# Kind (Kubernetes in Docker)
+# 📗 Kind (Kubernetes in Docker)
 
 Kind runs **Kubernetes clusters inside Docker containers**.
 
@@ -22,7 +22,7 @@ Kind runs each Kubernetes node as a **Docker container**.
 - Networking = Docker bridge
 - Storage = ephemeral by default
 
-```bash
+```text
 +----------------------------+
 |        Your Machine        |
 |                            |

@@ -1,6 +1,4 @@
-## 📗 `minikube/README.md`
-
-# Minikube
+# 📗 Minikube
 
 Minikube runs a **local single-node Kubernetes cluster** on your machine.
 
@@ -18,7 +16,7 @@ It is **not** a production solution or CI-centric tool — use Kind or K3s for t
 
 Minikube starts Kubernetes inside a lightweight VM or container runtime on your system. You interact with the cluster using `kubectl` — just like with any remote cluster.
 
-```bash
+```text
 +---------------------------+
 |        Your Machine       |
 |                           |

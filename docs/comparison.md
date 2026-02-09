@@ -110,7 +110,7 @@ Use this quick guide:
 
 ---
 
-```bash
+```text
                  ┌──────────────────────────┐
                  │  Why do you need local   │
                  │      Kubernetes?         │

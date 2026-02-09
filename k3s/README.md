@@ -1,4 +1,4 @@
-# K3s
+# 📗 K3s
 
 K3s is a **lightweight, CNCF-certified Kubernetes distribution**.
 
@@ -22,7 +22,7 @@ K3s:
 - Replaces heavy dependencies with lightweight alternatives
 - Disables non-essential features unless explicitly enabled
 
-```bash
+```text
 +-----------------------------+
 |         Linux Host          |
 |                             |

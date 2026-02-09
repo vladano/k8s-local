@@ -1,5 +1,3 @@
----
-
 ## 📗 `minikube/README.md`
 
 # Minikube
@@ -7,6 +5,7 @@
 Minikube runs a **local single-node Kubernetes cluster** on your machine.
 
 It’s ideal for:
+
 - Learning Kubernetes fundamentals
 - Trying addons (Ingress, metrics)
 - Local development workflows

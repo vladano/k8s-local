@@ -22,23 +22,25 @@ Kind runs each Kubernetes node as a **Docker container**.
 - Networking = Docker bridge
 - Storage = ephemeral by default
 
+```bash
 +----------------------------+
-| Your Machine |
-| |
-| kubectl |
-| │ |
-| ▼ |
-| Docker |
-| │ |
-| ├── Control Plane Node |
-| │ (Docker container) |
-| │ |
-| ├── Worker Node |
-| │ (Docker container) |
-| │ |
-| └── Worker Node |
-| (Docker container) |
+|        Your Machine        |
+|                            |
+|    kubectl                 |
+|      │                     |
+|      ▼                     |
+|    Docker                  |
+|      │                     |
+|      ├── Control Plane Node|
+|      │ (Docker container)  |
+|      │                     |
+|      ├── Worker Node       |
+|      │ (Docker container)  |
+|      │                     |
+|      └── Worker Node       |
+|          (Docker container)|
 +----------------------------+
+```
 
 This makes Kind:
 

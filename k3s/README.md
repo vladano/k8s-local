@@ -22,20 +22,22 @@ K3s:
 - Replaces heavy dependencies with lightweight alternatives
 - Disables non-essential features unless explicitly enabled
 
+```bash
 +-----------------------------+
-| Linux Host |
-| |
-| k3s (single binary) |
-| │ |
-| ├── API Server |
-| ├── Controller Manager |
-| ├── Scheduler |
-| ├── containerd |
-| └── CoreDNS |
-| |
-| (Optional) |
-| └── Traefik / ServiceLB |
+|         Linux Host          |
+|                             |
+|   k3s (single binary)       |
+|    │                        |
+|    ├── API Server           |
+|    ├── Controller Manager   |
+|    ├── Scheduler            |
+|    ├── containerd           |
+|    └── CoreDNS              |
+|                             |
+|   (Optional)                |
+|   └── Traefik / ServiceLB   |
 +-----------------------------+
+```
 
 This makes K3s:
 

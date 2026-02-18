@@ -119,7 +119,7 @@ Use this quick guide:
           ┌───────────────────┴───────────────────┐
           │                                       │
 
-Learning / Exploration                      Automation / CI
+ Learning / Exploration                Automation / CI
           │                                       │
      ┌────┴─────┐                           ┌─────┴─────┐
      │ Minikube │                           │ Kind      │
@@ -163,7 +163,7 @@ If a tool feels awkward, you may be using it **outside its intended purpose**.
 Pick the tool that matches your workflow — not the one with the most features.
 
 Minikube ──┐
-│ Learning
-Kind ──┼─────────── Automation / CI
+│       Learning
+Kind     ──┼─────────── Automation / CI
 │
-K3s ──┘ Production-like
+K3s      ──┘ Production-like

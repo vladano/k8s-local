@@ -1,6 +1,6 @@
 # k8s-local
 
-A practical, clear, and opinionated guide for running **Kubernetes locally** using:
+A practical and clear guide for running **Kubernetes locally** using:
 
 - **Minikube**
 - **Kind**

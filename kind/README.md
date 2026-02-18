@@ -24,7 +24,7 @@ Kind runs each Kubernetes node as a **Docker container**.
 
 ```text
 +----------------------------+
-|        Your Machine        |
+|    Your Machine            |
 |                            |
 |    kubectl                 |
 |      │                     |
